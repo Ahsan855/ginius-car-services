@@ -2,18 +2,13 @@ import React from "react";
 import "./Footer.css";
 
 const Footer = () => {
+  const today = new Date();
+  const year = today.getFullYear()
   return (
-    <footer>
+    <footer className="text-center mt-5">
       <p>
         <small>
-          Copyright&copy;
-          <span id="copyright">
-            <script>
-              document.getElementById('copyright').appendChild(document.createTextNode(new
-              Date().getFullYear()))
-            </script>
-          </span>
-          Ahsan Habib
+          Copyright&copy; {year} Ahsan Habib
         </small>
       </p>
     </footer>
