@@ -1,0 +1,17 @@
+.service-section{
+    border: 2px solid gray;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 10px;
+}
+.btn-color{
+    background: rgb(59, 59, 126);
+    padding: 10px 30px;
+    color: white;
+    margin-top: 15px;
+    border: none;
+    border-radius: 10px;
+}
+.btn-color:hover{
+    background: rgb(23, 23, 86);
+}
